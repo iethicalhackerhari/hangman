@@ -22,7 +22,7 @@ randomWord();
 function generateKeyboard(){
     buttonsHTML='abcdefghijklmnopqrstuvwxyz'.split('').map(letter=>
         `
-        <button class="btn btn-primary btn-lg m-2" onclick="btnClicked('`+letter+`')" id="`+ letter+ `">
+        <button class="btn btn-primary m-2" onclick="btnClicked('`+letter+`')" id="`+ letter+ `">
         `+letter+`
         </button>
         
